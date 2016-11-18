@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-# {{ jekyll.environment }}
+# {{ jekyll.environment }}， site.env: {{ site.env }}
 
 # {{ site.google_analytics }}
 
