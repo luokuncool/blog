@@ -33,3 +33,5 @@ exclude:
 
 paginate_path: "page/:num"
 paginate: 2
+
+google_analytics: UA-87685613-1
