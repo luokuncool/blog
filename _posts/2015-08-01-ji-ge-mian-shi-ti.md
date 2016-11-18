@@ -11,15 +11,16 @@ categories: mianshiti
 <?php
 function sort_test($array)
 {
-    while(true) {
-    shuffle($array);
-    $temp = array_flip($array);
-    if ($array[2] != 3 && 1 != abs($temp[5] - $temp[6])) {
-        return $array;
-    }
+    while (true) {
+        shuffle($array);
+        $temp = array_flip($array);
+        if ($array[2] != 3 && 1 != abs($temp[5] - $temp[6])) {
+            return $array;
+        }
     }
 }
-$array = array(1,2,3,4,5,6);
+
+$array = array(1, 2, 3, 4, 5, 6);
 print_r(sort_test($array));
 {% endhighlight %}
 
@@ -29,19 +30,20 @@ print_r(sort_test($array));
 <?php
 function get_target_letter($str)
 {
-    $i = 0;
+    $i     = 0;
     $array = array();
-    while(isset($str[$i])) {
-    $array[$str[$i]] = isset($array[$str[$i]]) ? $array[$str[$i]] + 1 : 1;
-    $i ++;
+    while (isset($str[$i])) {
+        $array[$str[$i]] = isset($array[$str[$i]]) ? $array[$str[$i]] + 1 : 1;
+        $i++;
     }
-    foreach($array as $key=>$val) {
-    if ($val == 1) {
-        return $key;
-    }
+    foreach ($array as $key => $val) {
+        if ($val == 1) {
+            return $key;
+        }
     }
     return false;
 }
+
 echo get_target_letter('asdfastflasdfopafdsa');
 {% endhighlight %}
 
