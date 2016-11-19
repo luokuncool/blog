@@ -5,7 +5,7 @@ date:   2015-11-25 09:18:34 +0800
 categories: git
 ---
 
-###一、AutoCRLF
+### 一、AutoCRLF
 
 提交时转换为LF，检出时转换为CRLF  
 
@@ -19,7 +19,7 @@ categories: git
 
     git config --global core.autocrlf false
 
-###二、SafeCRLF
+### 二、SafeCRLF
 
 拒绝提交包含混合换行符的文件    
 

@@ -6,7 +6,7 @@ categories: linux mysql
 ---
 
 
-###### MySQL的编译安装会花费较长的时间，所以我喜欢采用了懒人方法。    
+### MySQL的编译安装会花费较长的时间，所以我喜欢采用了懒人方法。    
 {% highlight shell %}
 yum install -y mysql-server
 #安装完成后启动

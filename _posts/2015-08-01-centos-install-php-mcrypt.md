@@ -6,11 +6,11 @@ categories: linux centos
 ---
 
 
-######1、 先去 http://www.sourceforge.net 下载Libmcrypt,mhash,mcrypt安装包。
-######2、 然后分别安装，都是解压后，进入源码目录执行以下代码。
+#### 1、 先去 http://www.sourceforge.net 下载Libmcrypt,mhash,mcrypt安装包。
+#### 2、 然后分别安装，都是解压后，进入源码目录执行以下代码。
     ./configure
     make && make install
-######3、 再去php.net下载对应版本的php源码，然后安装mcrypt模块即可，如下以5.3.3为例  
+#### 3、 再去php.net下载对应版本的php源码，然后安装mcrypt模块即可，如下以5.3.3为例  
     tar zxvf php-5.3.3.tar.gz  
     cd php-5.3.3/ext/mcrypt
     phpize
