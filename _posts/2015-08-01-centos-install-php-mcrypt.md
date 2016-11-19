@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "CentOS下php安装mcrypt扩展"
-date:   20162015-08-01 17:36:34 +0800
+date:   2015-08-01 17:36:34 +0800
 categories: linux centos
 ---
 

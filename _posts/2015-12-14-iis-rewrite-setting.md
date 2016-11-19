@@ -21,7 +21,7 @@ categories: iis
                     </conditions>
                     <action type="Rewrite" url="index.php/{R:1}"/>
                 </rule>
-            </rules>
+            </rules
         </rewrite>
     </system.webServer>
 </configuration>
