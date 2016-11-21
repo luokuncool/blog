@@ -6,7 +6,7 @@ permalink: /message-board/
 
 > 这里是留言板，欢迎各位骚年来这里吐槽~~~
 
-<div class="ds-thread" data-thread-key="message-board" data-title="{{page.title}}" data-url="{{page.url}}"></div>
+<div class="ds-thread" data-thread-key="message-board" data-title="{{page.title}}" data-url="{{ site.baseurl }}{{page.url}}"></div>
 <script type="text/javascript">
 var duoshuoQuery = {short_name:"luokuncool"};
 (function() {
