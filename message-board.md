@@ -4,11 +4,9 @@ title: 诚实的小猴子-留言板
 permalink: /message-board/
 ---
 
-<!-- 多说评论框 start -->
-<div class="ds-thread" data-thread-key="message-board" data-title="{{page.title}}" data-url="{{page.url}}"></div>
-<!-- 多说评论框 end -->
+> 这里是留言板，欢迎各位骚年来这里吐槽~~~
 
-<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+<div class="ds-thread" data-thread-key="message-board" data-title="{{page.title}}" data-url="{{page.url}}"></div>
 <script type="text/javascript">
 var duoshuoQuery = {short_name:"luokuncool"};
 (function() {
@@ -20,4 +18,3 @@ var duoshuoQuery = {short_name:"luokuncool"};
     || document.getElementsByTagName('body')[0]).appendChild(ds);
 })();
 </script>
-<!-- 多说公共JS代码 end -->
