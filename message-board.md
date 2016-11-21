@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: 诚实的小猴子-留言板
 permalink: /message-board/
 ---
